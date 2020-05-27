@@ -71,7 +71,7 @@ public class MoviesLoadDataToTable {
 
     public static void main(String[] args) throws Exception {
 
-
+//
 
     	ProfileCredentialsProvider credentialsProvider = new ProfileCredentialsProvider();
 
