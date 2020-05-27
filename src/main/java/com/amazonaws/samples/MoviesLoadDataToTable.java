@@ -1,4 +1,3 @@
-
 package com.amazonaws.samples;
 
 
@@ -71,7 +70,7 @@ public class MoviesLoadDataToTable {
 
     public static void main(String[] args) throws Exception {
 
-///
+
 
     	ProfileCredentialsProvider credentialsProvider = new ProfileCredentialsProvider();
 
@@ -92,7 +91,7 @@ public class MoviesLoadDataToTable {
                     e);
 
         }
-
+//
         AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard()
 
         	.withCredentials(credentialsProvider)
@@ -101,13 +100,14 @@ public class MoviesLoadDataToTable {
 
             .build();
 
-
+//
+        
 
         DynamoDB dynamoDB = new DynamoDB(client);
 
 
 
-        Table table = dynamoDB.getTable("Movies");
+        Table table = dynamoDB.getTable("NighthawkMovies");
 
 
 
