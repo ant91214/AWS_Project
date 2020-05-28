@@ -226,21 +226,21 @@ public class SimpleWriteToTable {
 
 		    .withPrimaryKey("Id", 1)
 
-		    .withString("name", "homie")
+		    .withString("name", "Lucy")
 
-		    .withNumber("Price", 32)
+		    .withNumber("Price", 99999999)
 
-		    .withString("Description", "he's a homie")
+		    .withString("Description", "she's my friend")
 
-		    .withString("Category", "comfort")
+		    .withString("Category", "person")
 
-		    .withString("Material", "unkown")
+		    .withString("Material", "magical unicorn")
 
 		    .withBoolean("InStock",true)
 
 		    .withString("Genre", "n/a")
 
-		    .withNumber("Calories", 0)
+		    .withNumber("Calories", 1000000000)
 
 		    .withString("Image", "n/a");
 
